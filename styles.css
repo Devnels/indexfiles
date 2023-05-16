@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 200px;
+    gap: 40px;
+    list-style: none;
+    padding : 50px 1px 10px 1px ;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.navbar .nav-items {
+    display: flex;
+    margin-left: 350px;
+    gap: 40px;
+   list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items li a:hover {
+    color: red;
+     background-color: transparent;
+     transition: .5s ease-in-out;
+
+}
+
+.navbar .Contact {
+    margin-left: 130px;
+    display: flex;
+}
+
+.Contact {
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 14px;
+    padding: 13px 30px;
+    cursor: pointer;
+}
+
+.Contact:hover {
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    background-color: transparent;
+    transition: .5s ease-in-out
+
+}
+
+.container {
+   margin-top: 05px;
+   align-items: center;
+   text-align: center;
+   gap: 60px;
+   background-color:#f7f8fa;
+}
+
+.header {
+    font-size: 42px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font: weight 600px;;
+
+}
+
+.coll {
+    opacity:0.7 ;
+    font-size: 18px;
+}
+
+ button {
+    border: none;
+    font-size: 14px;
+    padding: 12px 21px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+ }
+ 
+ .button1 {
+    background-color:#fec4af;
+    color: #fd8041;
+    
+ }
+
+ .button1:hover {
+    border: 1px solid red;
+    color: red;
+    background: transparent;
+    
+ }
+ 
+.button2 {
+    background-color:#b7eddd;
+    color: #6ad7b6;
+}
+
+
+.button2:hover {
+    border: 1px solid #5ed6b3 ;
+    color: #6ad7b6;
+    background: transparent;
+    
+}
+.container p {
+    margin: 15px ;
+    font-family: sans-serif;
+    color: #6e6e6e;
+    font-size: 18px;
+}
+
+body {
+   background-color:#f7f8fa ;
+   padding-left: 6px;
+   padding-right: 6px;
+   margin-right: auto;
+   margin-left: auto;
+   
+}
+
+
+/* secondpage */
+
+.second-page{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:white ;
+    
+}
+
+.works {
+    align-items: center;
+    text-align: center;
+    display: block;
+    padding: 78px;
+}
+.simple-flex {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 0px 50px 0px 100px; 
+    margin-top: -15px;
+}
+
+.simple-flex h5 {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.header2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    line-height: 1.5;
+    font-weight: 550;  
+    margin-top: 10px;
+}
+
+.works p {
+    font-family: Poppins,sans-serif;;
+    color: #6e6e6e;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.simple-flex p {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #6e6e6e;
+    margin-top: 0;
+}
+.simple-flex button {
+   color: #97a3be;
+   font-family: sans-serif;
+   background-color: transparent;
+   font-size: 14px;
+   font-weight: 500px;
+   margin-left: -22px;
+}
+
+.simple-flex button:hover {
+     color: red;
+     background-color: transparent;
+     transition: .5s ease-in-out;
+}
