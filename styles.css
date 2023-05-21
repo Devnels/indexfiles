@@ -195,3 +195,221 @@ body {
      background-color: transparent;
      transition: .5s ease-in-out;
 }
+
+/* third page */
+
+#third-page {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:white ;
+    display: flex;
+    font-family: sans-serif;
+    gap: 30px;
+    
+}
+
+.third-class {
+   padding: 180px;
+   justify-content: center;
+    gap: 200px;
+    margin-left: 10px;
+}
+
+.header3 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#third-page p {
+    font: size 15px;
+    color: #6e6e6e;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#third-page h6 {
+    font-size: 15px;
+    color: #6e6e6e;
+    font-weight: 600;
+}
+
+.ThirdsectGroup1 {
+    padding-top: 70px;
+    
+}
+
+#fourth-page {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:white ;
+    display: flex;
+    font-family: sans-serif;
+    gap: 200px;
+    
+}
+.fourth-class {
+    justify-content: center;
+ margin-left: 10px
+}
+
+.header4 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#fourth-page p {
+    font: size 15px;
+    color: #6e6e6e;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#fourth-page h6 {
+    font-size: 15px;
+    color: #6e6e6e;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.fourthsectGroup2 {
+   margin-top: -20px;
+     gap: 10px;
+     margin-left: 300px
+}
+
+.fourth-class button {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 3px;
+    
+}
+
+.fourth-class button:hover{
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    background-color: transparent;
+    transition: .5s ease-in-out
+
+}
+
+/* fifth0-page */
+#fifth-page {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:white ;
+    font-family: sans-serif;
+
+}
+.fifth-class {
+   text-align: center;
+   justify-content: center;
+   padding-top: 70px;
+   padding-bottom: 60px;
+}
+
+.flex-imgs {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+#fifth-page h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+#fifth-page h5 {
+    color: #6e6e6e;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#fifth-page h6 {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#fifth-page p {
+    color: #6e6e6e;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-bottom: 200px;
+
+}
+
+.testimonials {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:white ;
+    font-family: sans-serif;
+}
+
+.sixth-class {
+    text-align: center;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+
+.flex-box {
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box1, .box2, .box3 {
+    border: #f3f7fb;
+    background-color: #f3f7fb;
+    border-radius:10px;
+    margin-left: 100px;
+    padding: 30px;
+}
+
+.flex-box .img {
+    border-radius: 50%;
+    padding: 10px 0px 10px 0px;
+}
+
+.flex-box p {
+    color: #6e6e6e;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    padding: 0px 40px 0px 40px;
+}
+
+.flex-box h5 {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.flex-box h6 {
+    color: #6e6e6e;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.sixth-class h2 {
+    font-size: 37px;
+    font-weight: 500;
+}
+.sixth-class h5 {
+    color: #6e6e6e;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 1.2;
+}
