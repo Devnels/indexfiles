@@ -14,6 +14,10 @@
     font-family: sans-serif;
 }
 
+.background{
+    background-color: #f7f8fa;
+}
+
 .navbar .nav-items {
     display: flex;
     margin-left: 350px;
@@ -60,7 +64,6 @@
    align-items: center;
    text-align: center;
    gap: 60px;
-   background-color:#f7f8fa;
 }
 
 .header {
@@ -115,15 +118,6 @@
     font-family: sans-serif;
     color: #6e6e6e;
     font-size: 18px;
-}
-
-body {
-   background-color:#f7f8fa ;
-   padding-left: 6px;
-   padding-right: 6px;
-   margin-right: auto;
-   margin-left: auto;
-   
 }
 
 
@@ -412,4 +406,98 @@ body {
     font-weight: 400;
     margin-top: 10px;
     line-height: 1.2;
+}
+
+/* contact */
+
+.contact-bttm {
+   text-align: center;
+   padding: 100px 80px 100px 80px;
+   background-image: url(https://www.bootstrapdash.com/demo/simple/images/gdpr.jpg) ;
+   background-size: contain;
+   background-repeat: no-repeat;
+   justify-content: center;
+   width: 80vw;
+   margin: 100px 130px 90px ;
+   font-family: sans-serif;
+}
+
+.contact-bttm h5{
+    font-size: 26px;
+    font-weight: 500;
+
+}
+
+.contact-bttm button{
+    background-color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    border: 2px solid red;
+    color: red;
+}
+
+.contact-bttm button:hover{
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    transition:all .5s ease-in-out;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+
+footer h5 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 17px;
+    color: #6e6e6e;
+}
+
+#placeholder {
+    background-color: #f6f7fb;
+    border: none;
+    padding: 10px 70px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+footer button {
+    color: white;
+    background-color: black;
+}
+
+footer button:hover{
+     border: 1.5px solid black;
+    color: black;
+    background-color: white;
+    transition:all .4s ease-in-out;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+footer p a:hover{
+    color: red;
+    transition:all .5s ease-in-out;
+}
+
+line-h{
+    line-height: 1.6;
+    margin-left: -60px;
+}
+
+footer img {
+    margin-bottom: 14px;
 }
