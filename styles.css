@@ -463,7 +463,6 @@ footer p {
 
 #placeholder {
     background-color: #f6f7fb;
-    border: none;
     padding: 10px 70px 10px 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -500,4 +499,30 @@ line-h{
 
 footer img {
     margin-bottom: 14px;
+}
+
+#footer-line {
+    border-bottom: px solid  grey;
+    width: 1100px;
+    margin: auto;
+
+}
+
+.last-line {
+    display: flex;
+    margin-top: 30px;
+    gap: 280px;
+}
+
+.p-2 {
+    color:#221e1e;
+}
+
+.last-line a {
+    color: red;
+}
+
+.last-line a:hover {
+    color: black;
+    transition: .5s ease-in-out;
 }
